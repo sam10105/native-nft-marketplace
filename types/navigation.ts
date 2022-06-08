@@ -1,7 +1,9 @@
 import type { NativeStackScreenProps } from '@react-navigation/native-stack';
 
+import type { NFTItem } from '../lib';
+
 export type RootStackParamList = {
-  Details: { id: string };
+  Details: { item: NFTItem };
   Home: undefined;
 };
 
